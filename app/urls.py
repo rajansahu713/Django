@@ -18,6 +18,7 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('api-auth/', include('rest_framework.urls')),
     path('fn_api/', include('fn_api.urls')),
     path('apiview/', include('apiview_api.urls')),
     path('viewset/', include('viewset_api.urls')),
@@ -25,4 +26,5 @@ urlpatterns = [
     path("concrete/", include("Concrete_View_Classes.urls")),
     path("concrete_1/",include("Concrete_View_Classes_1.urls")),
     path("concrete_2/",include("Concrete_View_Classes_2.urls")),
+    path("viewset_modelviewset/",include("viewset_modelviewset.urls")),
 ]
