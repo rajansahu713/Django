@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     "Concrete_View_Classes",
     'Concrete_View_Classes_1',
     'Concrete_View_Classes_2',
+    'viewset_modelviewset',
 ]
 
 MIDDLEWARE = [
