@@ -12,3 +12,9 @@ I have created a project **app** by using
 ```python
 django-admin startproject app
 ```
+
+After that i have created multiples app by using 
+```python
+python manage.py startapp fun_api
+```
+simillarly i have created other app 
