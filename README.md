@@ -8,6 +8,20 @@ In this repo i have perform CRUD operation in multiple ways
 5. ModelViewset
 6. Concrete Apiview
 
+### Function Base View
+> Function based views are usually chosen when we want to highly customize the typical view logic since it is easier to follow the sequence of actions they describe.
+
+### Apiview
+> With APIview you code methods etc for the different HTTP call methods such as post, get, put etc. These come with no standard configuration, so you can customise to your needs.
+
+### Generic Apiview
+> Django’s generic views… were developed as a shortcut for common usage patterns… They take certain common idioms and patterns found in view development and abstract them so that you can quickly write common views of data without having to repeat yourself.
+
+### Viewset
+    Method Names reflect Database Model class actions/operations like list(),retrieve(),create(),update(),partial_update() and destroy()
+    not required to map views to URLs explicitly. DefaultRouter will takes care URL mapping automatically
+    Best suitable for developing simple APIs like developing CRUD interface for database models
+
 I have created a project **app** by using 
 ```python
 django-admin startproject app
